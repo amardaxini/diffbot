@@ -2,99 +2,103 @@
 
 **TODO: API**
   GET "v1/article?url=cgi escape url"
-  {
-    "url": "https://renatomoya.github.io/2015/05/09/Building-a-versioned-REST-API-with-Phoenix-Framework.html",
-    "title": "Building a versioned REST API with Phoenix Framework",
+  
+  ```json
+    {
+    "url": "http://blog.yogisoftware.com/nosql/redis/price-drop-alert-notification-for-e-commerce-using-redis/",
+    "title": "Price Drop Alert Notification for E-commerce Using Redis",
     "tags": [
         {
-            "name": "api",
+            "name": "built",
             "accuracy": 1
         },
         {
-            "name": "versioned",
+            "name": "comparison",
             "accuracy": 1
         },
         {
-            "name": "rest",
+            "name": "ecommerce",
             "accuracy": 1
         },
         {
-            "name": "elixir",
+            "name": "website",
             "accuracy": 1
         },
         {
-            "name": "phoenix",
+            "name": "redis",
             "accuracy": 1
         },
         {
-            "name": "frameworkbuilding",
-            "accuracy": 0.9402985074626866
+            "name": "redisprice",
+            "accuracy": 1
         },
         {
-            "name": "erglang",
-            "accuracy": 0.626865671641791
+            "name": "price",
+            "accuracy": 1
         },
         {
-            "name": "understand",
-            "accuracy": 0.626865671641791
+            "name": "alert",
+            "accuracy": 1
         },
         {
-            "name": "syntax",
-            "accuracy": 0.626865671641791
+            "name": "drop",
+            "accuracy": 1
         },
         {
-            "name": "concise",
-            "accuracy": 0.626865671641791
+            "name": "notification",
+            "accuracy": 1
         },
         {
-            "name": "easy",
-            "accuracy": 0.626865671641791
+            "name": "using",
+            "accuracy": 1
         },
         {
-            "name": "love",
-            "accuracy": 0.5223880597014925
+            "name": "user",
+            "accuracy": 0.48275862068965514
         },
         {
-            "name": "toy",
-            "accuracy": 0.5223880597014925
+            "name": "overcome",
+            "accuracy": 0.24137931034482757
         },
         {
-            "name": "gotta",
-            "accuracy": 0.5223880597014925
+            "name": "recall",
+            "accuracy": 0.24137931034482757
         },
         {
-            "name": "playing",
-            "accuracy": 0.5223880597014925
+            "name": "required",
+            "accuracy": 0.24137931034482757
         },
         {
-            "name": "within",
-            "accuracy": 0.3134328358208955
+            "name": "set",
+            "accuracy": 0.24137931034482757
         },
         {
-            "name": "router",
-            "accuracy": 0.3134328358208955
+            "name": "takes",
+            "accuracy": 0.24137931034482757
         },
         {
-            "name": "change",
-            "accuracy": 0.208955223880597
+            "name": "thousands",
+            "accuracy": 0.24137931034482757
         },
         {
-            "name": "tasks",
-            "accuracy": 0.208955223880597
+            "name": "time",
+            "accuracy": 0.24137931034482757
         },
         {
-            "name": "want",
-            "accuracy": 0.208955223880597
+            "name": "users",
+            "accuracy": 0.24137931034482757
         }
     ],
-    "image": null,
-    "fulltext": "Erglang syntax is simple, concise and easy to understand but Elixir is that and much more. In one word, , it’s like Ruby’s cute new little sister.\n\nwhere will be the folder of our project. Phoenix also accept an absolute path to a folder. The flag tells task we don’t want to use for our static asset compilation.\n\nDone. You can now access the folder Phoenix created for our project.\n\nPhoenix ships with tasks to generate resources for us. These tasks are:\n\nIt will also prompt you with a few instructions to update the router and to run the migrations. Let’s do that now.\n\nWe got rid of a lot of code we’re not using for an API. We added the resource within the scope and we setup the pipeline within scope.\n\nIf you’re seeing an error while executing any of these commands, you need to make sure you have PostgreSQL running and you have a role with password created. If you want to change the database configuration you can change it in line 32-33 and line 15-16.\n\nNext we need to version our controllers and views and make some additional modifications. First let’s create some folders and move the files:\n\nThis is because the router helper doesn’t exists. When we setup our resource within the scope, we specified the option which adds the prefix to the router helper .",
+    "image": "http://blog.yogisoftware.com/wp-content/uploads/2015/08/price_alet_4.png",
+    "fulltext": "So, one of the challenges here, is maintaining the database as each user may set multiple notifications, and there are thousands of users on the site. This takes some time to recall the user notifications. But with Redis we can easily overcome this problem.\n\nYour email address will not be published. Required fields are marked",
     "feeds": [
-        "https://renatomoya.github.io/rss"
+        "http://blog.yogisoftware.com/xmlrpc.php",
+        "http://feeds.feedburner.com/YogiSoftware"
     ],
-    "favicon": "https://renatomoya.github.io/themes/Casper/favicon.ico",
-    "description": "I&#8217;ve been playing Elixir lately and I gotta say the more I toy with it, the more I love it. Erglang syntax is simple, concise and easy to understand but Elixir is that and much more. In one..."
-}
+    "favicon": "http://blog.yogisoftware.com/wp-content/themes/flat-theme/favicon.png",
+    "description": "How to built price drop alert notification Using Redis for eCommerce & price comparison website using redis."
+    }
+```    
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
