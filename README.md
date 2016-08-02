@@ -1,5 +1,6 @@
 # Diffbot
-
+  ```mix deps.get ```
+  ```iex -S mix ``` 
 **TODO: API**
   GET "v1/article?url=cgi escape url"
   
