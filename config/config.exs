@@ -28,4 +28,4 @@ use Mix.Config
 # here (which is why it is important to import them last).
 #
 #     import_config "#{Mix.env}.exs"
-config :maru, Diffbot.API,http: [port: 8880]
+config :maru, Diffbot.API,http: [port:  {:system, "PORT"}]
